@@ -94,7 +94,7 @@ function displayPhoneDeetails(phone){
   <p>Chip Set: ${phone.mainFeatures.chipSet ? phone.mainFeatures.chipSet : "No main features"}</p>
   <p>Display Size: ${phone.mainFeatures.displaySize ? phone.mainFeatures.displaySize : "No main features"}</p>
   <p>Memory: ${phone.mainFeatures.memory ? phone.mainFeatures.memory : "No main features"}</p>
-  <p>Sensors: ${phone.mainFeatures.sensor[0] ? phone.mainFeatures.sensor : "No main features"}</p>
+  <p>Sensors: ${phone.mainFeatures.sensor ? phone.mainFeatures.sensor : "No main features"}</p>
 
   `
 }
